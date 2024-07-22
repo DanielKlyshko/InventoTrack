@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4DBE622C4EBEAA000A03D9 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C4DBE5F2C4EBEAA000A03D9 /* Poppins-SemiBold.ttf */; };
+		1C4DBE632C4EBEAA000A03D9 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C4DBE602C4EBEAA000A03D9 /* Poppins-Medium.ttf */; };
+		1C4DBE642C4EBEAA000A03D9 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C4DBE612C4EBEAA000A03D9 /* Poppins-Regular.ttf */; };
 		1C5F4F5C2C4D6D0E003098A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F4F5B2C4D6D0E003098A1 /* AppDelegate.swift */; };
 		1C5F4F5E2C4D6D0E003098A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F4F5D2C4D6D0E003098A1 /* SceneDelegate.swift */; };
 		1C5F4F602C4D6D0E003098A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F4F5F2C4D6D0E003098A1 /* ViewController.swift */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C4DBE5F2C4EBEAA000A03D9 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		1C4DBE602C4EBEAA000A03D9 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		1C4DBE612C4EBEAA000A03D9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		1C5F4F582C4D6D0E003098A1 /* InventoTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5F4F5B2C4D6D0E003098A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C5F4F5D2C4D6D0E003098A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4DBE5E2C4EBE1B000A03D9 /* Poppins font */ = {
+			isa = PBXGroup;
+			children = (
+				1C4DBE602C4EBEAA000A03D9 /* Poppins-Medium.ttf */,
+				1C4DBE612C4EBEAA000A03D9 /* Poppins-Regular.ttf */,
+				1C4DBE5F2C4EBEAA000A03D9 /* Poppins-SemiBold.ttf */,
+			);
+			path = "Poppins font";
+			sourceTree = "<group>";
+		};
 		1C5F4F4F2C4D6D0E003098A1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +70,7 @@
 		1C5F4F5A2C4D6D0E003098A1 /* InventoTrack */ = {
 			isa = PBXGroup;
 			children = (
+				1C4DBE5E2C4EBE1B000A03D9 /* Poppins font */,
 				1C5F4F5B2C4D6D0E003098A1 /* AppDelegate.swift */,
 				1C5F4F5D2C4D6D0E003098A1 /* SceneDelegate.swift */,
 				1C5F4F5F2C4D6D0E003098A1 /* ViewController.swift */,
@@ -122,8 +139,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4DBE622C4EBEAA000A03D9 /* Poppins-SemiBold.ttf in Resources */,
+				1C4DBE632C4EBEAA000A03D9 /* Poppins-Medium.ttf in Resources */,
 				1C5F4F652C4D6D10003098A1 /* Assets.xcassets in Resources */,
 				1C5F4F682C4D6D10003098A1 /* Base in Resources */,
+				1C4DBE642C4EBEAA000A03D9 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
